@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JustDog</title>
+
+  <!-- favicon link -->
+  <link rel="shortcut icon" href="image/faviconlogo1.png" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- style css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <!-- font-awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="image/logo.png" width="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="input-group mb-3">
+              <input type="search" class="form-control" id="form-con" placeholder="Search.."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-info text-light" type="sumbit" id="button-addon2"><i
+                  class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="container-fluid">
+        <div class="row justify-content-evenly" id="showpad">
+          <div class="col-6" id="para">
+            <h1><strong> Where pets are treated like family</strong></h1>
+            <p>Advanced General Practice Offering Comprehensive Dentistry, Urgent Care Services, Geriatric and
+              Preventative Medicine Utilizing State of The Art Diagnostic Imaging and Laboratory Services.</p>
+            <form action="">
+              <button type="button" id="cont" class="btn btn-info btn-md text-light">Contacts</button>
+              <button type="button" id="serv" class="btn btn-outline-light btn-md ">Services</button>
+            </form>
+          </div>
+          <div class="col-6" id="img">
+            <img class="img-fluid" src="image/slideshow.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-col-12" id="secondslide">
+          <div class="col-6" id="secondpara">
+            <h1>2023 Mentoring Guidelines</h1>
+            <h2><strong>Guidelines at a Glance</strong></h2>
+            <p>This is a tough time to be in the veterinary
+              profession, <br>and you want your veterinary
+              team to be as happy,<br> resilient, and
+              fulfilled as possible.
+            </p>
+            <form action="">
+              <button type="button" id="rm" class="btn btn-md text-light">Read More</button>
+            </form>
+          </div>
+          <div class="col-6" id="secondvid">
+            <div class="embed-responsive embed-responsive-1by1">
+              <video autoplay controls muted loop width="100%" id="vid">
+                <source src="image/second.mp4" type="video/mp4">
+                <source src="image/second.ogg" type="video/ogg">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-light" id="thirdshow">
+        <div class="row text-center">
+          <h1 class="pb-2"><strong>Dogs Medical Treatment</strong></h1>
+          <p>Proper pet care is the basis of responsible pet ownership. It is important when you adopt a pet to
+            understand it is a lifetime commitment to a furry family member that depends on you for his or her health
+            and well-being. </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-5 pt-5">
+          <div class="col">
+            <div class="card care">
+              <img src="image/thirdslide.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Veterinarians </h5>
+                <p class="card-text">Veterinarians are animal doctors. They prevent, diagnose, and treat animal
+                  diseases. They can perform surgery and prescribe drugs. This branch of medicine is called veterinary
+                  medicine, or veterinary science.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card care">
+              <img src="image/thirdslide1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Vaccinations Care</h5>
+                <p class="card-text">Getting the right vaccinations at the right age will prevent your dog from getting
+                  ill. Dogs. Vaccinations help prevent dogs from infectious & sometimes fatal diseases. Learn more.
+                  Pets. Tailored Nutrition.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card care">
+              <img src="image/thirdslide2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Dental Care</h5>
+                <p class="card-text">TRegular veterinary dental cleaning along with specially designed toothbrushes,
+                  toothpaste and oral care treats such as Dentastix® can help reduce tartar build-up. Click here to know
+                  how to take care of your dog’s teeth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row row-col-12" id="fourthslide">
+          <div class="col-6" id="fourthvid" id="fourthpara">
+            <div class="embed-responsive embed-responsive-1by1">
+              <video autoplay controls muted loop width="100%" id="vid1">
+                <source src="image/first.mp4" type="video/mp4">
+                <source src="image/first.ogg" type="video/ogg">
+              </video>
+            </div>
+          </div>
+          <div class="col-6" id="fourthpara">
+            <h1><strong>The Five Point Health Check for Dogs</strong></h1>
+            <p>
+              Remember to examine all of the below five areas in your dog
+            <ul>
+              <li>Weight check</li>
+              <li>Coat and skin </li>
+              <li>Eyes and ears </li>
+              <li>Teeth and gums </li>
+              <li>Spot checks</li>
+            </ul>
+            </p>
+            <form action="">
+              <button type="button" id="rm" class="btn btn-md text-light">Read More</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="container-fluid text-light" id="thirdshow">
+        <div class="row text-center">
+          <h1 class="pb-2"><strong>Vetcare Team</strong></h1>
+          <p>PWhy is teamwork important in veterinary?
+            Veterinary practices rely a lot on team work. Everything in a clinic runs a lot smoother, more efficiently,
+            and quickly if everyone works together. Communication is a big key factor in team work, as is mutual respect
+            and understanding. </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-5 pt-5">
+          <div class="col">
+            <div class="card care">
+              <img src="image/vet1.jpg" class="card-img-top" alt="...">
+              <div class="card-body space text-center">
+                <h5 class="card-title fw-bold"><strong>Jennifer mullen</strong></h5>
+                <p class="card-text">VETERINARY</p>
+                <p class="icn"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-whatsapp"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card care">
+              <img src="image/vet2.jpg" class="card-img-top" alt="...">
+              <div class="card-body space text-center">
+                <h5 class="card-title fw-bold">Sheeren Collins</h5>
+                <p class="card-text">ADMINISTRATION</p>
+                <p class="icn"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-whatsapp"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card care">
+              <img src="image/vet3.jpg" class="card-img-top" alt="...">
+              <div class="card-body space text-center">
+                <h5 class="card-title fw-bold">Swift Taylor</h5>
+                <p class="card-text">VETERINARY</p>
+                <p class="icn"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-whatsapp"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pb-2 ">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body ">
+                <p class="icnsize"><i class="fa-solid fa-heart-circle-plus"></i></p>
+                <p class="card-text fs-4">+34793</p>
+                <h5 class="card-title"><strong>Happy Client</strong></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card border-0 bg-transparent ">
+              <div class="card-body">
+                <p class="icnsize"><i class="fa-solid fa-stethoscope"></i></p>
+                <p class="card-text fs-4">+500</p>
+                <h5 class="card-title"><strong>Department</strong></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body">
+                <p class="icnsize"><i class="fa-solid fa-syringe"></i></p>
+                <p class="card-text fs-4">+68457</p>
+                <h5 class="card-title"><strong>Vaccinations</strong></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  <!-- Footer of the page -->
+  <footer>
+    <div class="container-fluid">
+
+      <div class="row row-cols-1 footr px-5">
+        <div class="col-2 lastcol">
+          <div class="card border-0 bg-transparent">
+            <div class="card-body">
+              <ul class="card-text footli">
+                <h5><strong>About</strong></h5>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Brand Guidelines</li>
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 lastcol">
+          <div class="card border-0 bg-transparent">
+            <div class="card-body">
+              <ul class="card-text footli">
+                <h5><strong>Services</strong></h5>
+                <li>Appointment</li>
+                <li>Our Treatment</li>
+                <li>promo</li>
+                <li>payment Method</li>
+                <li>Recent Posts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 justside">
+          <div class="card border-0 bg-transparent " id="footsearch">
+            <div class="card-body">
+              <ul class="card-text footli" id="footext">
+                <h5><strong>JustDog</strong></h5>
+                <li>Care For Our Four Legged Friends.</li>
+                <li>
+                  <div class="input-group input-group1 mb-3">
+                    <input type="text" class="form-control" aria-label="Recipient's username"
+                      aria-describedby="button-addon2">
+                    <button class="btn btn-outline-info" type="button" id="button-addon2"><i
+                        class="fa-solid fa-paper-plane"></i></button>
+                <li class="icn"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i
+                    class="fa-brands fa-twitter"></i><i class="fa-brands fa-whatsapp"></i></li>
+            </div>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row bg-secondary text-dark text-center  pt-1">
+        <h6 style="font-weight:600;">Copyright &COPY; JustDog 2022. All rights reserved.</h6>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

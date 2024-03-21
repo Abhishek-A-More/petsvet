@@ -1,0 +1,125 @@
+@media screen and (max-width:1418px) {
+  .lastcol {
+    width: 23.667% !important;
+  }
+}
+
+@media screen and(max-width:1086px) {
+  #para {
+    padding-top: 15% !important;
+    padding-left: 0%;
+  }
+
+  #secondpara {
+    padding-top: 0% !important;
+  }
+
+  #thirdshow {
+    padding: 4% 6% !important;
+  }
+
+  #fourthslide {
+    margin: -1% 0% !important;
+  }
+
+  #footsearch {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:1095px) {
+  .lastcol {
+    width: 31.667% !important;
+  }
+}
+
+@media screen and (max-width:1085px) {
+  #para {
+    padding-top: 15%;
+    padding-left: 3%;
+  }
+
+  #secondpara {
+    padding-top: 0%;
+  }
+
+  #thirdshow {
+    padding: 4% 12%;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .justside {
+    width: 38%
+  }
+
+  #footext {
+    text-align: center !important;
+    padding: 4% 0%;
+  }
+}
+
+@media screen and (max-width:880px) {
+  #para {
+    padding-top: 10%;
+    padding-left: 3%;
+  }
+
+  #secondslide {
+    padding: 7% 8%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  #secondpara {
+    width: 100%;
+    padding: 0 21%;
+    padding-top: 4%;
+  }
+
+  #secondvid {
+    width: 100%;
+    padding: 0 21%;
+    padding-top: 0%;
+  }
+
+  #fourthslide {
+    padding: 7% 8%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #fourthpara {
+    width: 100%;
+    padding: 0 21%;
+  }
+
+  #fourthvid {
+    width: 100%;
+    padding: 0 21%;
+    padding-bottom: 4%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .footr{
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .lastcol {
+    width:90% !important;
+    text-align: center;
+  }
+
+  .justside {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:710px) {
+  #para {
+    padding-top: 10%;
+    padding-left: 3%;
+    width: auto;
+  }
+}
